@@ -1,0 +1,47 @@
+-- Existing sdkconfig '/Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/sdkconfig' renamed to '/Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.39.2 (Apple Git-143)") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/joaogabrielmacedo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/joaogabrielmacedo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/joaogabrielmacedo/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+Processing 2 dependencies:
+[1/2] espressif/led_strip (2.3.1)
+[2/2] idf (5.2.0)
+-- Project sdkconfig file /Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/joaogabrielmacedo/.espressif/python_env/idf5.2_py3.11_env/bin/python (found version "3.11.3") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "blink" version: v5.2-dev-350-g56123c52aa-dirty
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/joaogabrielmacedo/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__led_strip esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/joaogabrielmacedo/esp/esp-idf/components/app_trace /Users/joaogabrielmacedo/esp/esp-idf/components/app_update /Users/joaogabrielmacedo/esp/esp-idf/components/bootloader /Users/joaogabrielmacedo/esp/esp-idf/components/bootloader_support /Users/joaogabrielmacedo/esp/esp-idf/components/bt /Users/joaogabrielmacedo/esp/esp-idf/components/cmock /Users/joaogabrielmacedo/esp/esp-idf/components/console /Users/joaogabrielmacedo/esp/esp-idf/components/cxx /Users/joaogabrielmacedo/esp/esp-idf/components/driver /Users/joaogabrielmacedo/esp/esp-idf/components/efuse /Users/joaogabrielmacedo/esp/esp-idf/components/esp-tls /Users/joaogabrielmacedo/esp/esp-idf/components/esp_adc /Users/joaogabrielmacedo/esp/esp-idf/components/esp_app_format /Users/joaogabrielmacedo/esp/esp-idf/components/esp_coex /Users/joaogabrielmacedo/esp/esp-idf/components/esp_common /Users/joaogabrielmacedo/esp/esp-idf/components/esp_eth /Users/joaogabrielmacedo/esp/esp-idf/components/esp_event /Users/joaogabrielmacedo/esp/esp-idf/components/esp_gdbstub /Users/joaogabrielmacedo/esp/esp-idf/components/esp_hid /Users/joaogabrielmacedo/esp/esp-idf/components/esp_http_client /Users/joaogabrielmacedo/esp/esp-idf/components/esp_http_server /Users/joaogabrielmacedo/esp/esp-idf/components/esp_https_ota /Users/joaogabrielmacedo/esp/esp-idf/components/esp_https_server /Users/joaogabrielmacedo/esp/esp-idf/components/esp_hw_support /Users/joaogabrielmacedo/esp/esp-idf/components/esp_lcd /Users/joaogabrielmacedo/esp/esp-idf/components/esp_local_ctrl /Users/joaogabrielmacedo/esp/esp-idf/components/esp_mm /Users/joaogabrielmacedo/esp/esp-idf/components/esp_netif /Users/joaogabrielmacedo/esp/esp-idf/components/esp_netif_stack /Users/joaogabrielmacedo/esp/esp-idf/components/esp_partition /Users/joaogabrielmacedo/esp/esp-idf/components/esp_phy /Users/joaogabrielmacedo/esp/esp-idf/components/esp_pm /Users/joaogabrielmacedo/esp/esp-idf/components/esp_psram /Users/joaogabrielmacedo/esp/esp-idf/components/esp_ringbuf /Users/joaogabrielmacedo/esp/esp-idf/components/esp_rom /Users/joaogabrielmacedo/esp/esp-idf/components/esp_system /Users/joaogabrielmacedo/esp/esp-idf/components/esp_timer /Users/joaogabrielmacedo/esp/esp-idf/components/esp_wifi /Users/joaogabrielmacedo/esp/esp-idf/components/espcoredump /Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/managed_components/espressif__led_strip /Users/joaogabrielmacedo/esp/esp-idf/components/esptool_py /Users/joaogabrielmacedo/esp/esp-idf/components/fatfs /Users/joaogabrielmacedo/esp/esp-idf/components/freertos /Users/joaogabrielmacedo/esp/esp-idf/components/hal /Users/joaogabrielmacedo/esp/esp-idf/components/heap /Users/joaogabrielmacedo/esp/esp-idf/components/http_parser /Users/joaogabrielmacedo/esp/esp-idf/components/idf_test /Users/joaogabrielmacedo/esp/esp-idf/components/ieee802154 /Users/joaogabrielmacedo/esp/esp-idf/components/json /Users/joaogabrielmacedo/esp/esp-idf/components/log /Users/joaogabrielmacedo/esp/esp-idf/components/lwip /Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/main /Users/joaogabrielmacedo/esp/esp-idf/components/mbedtls /Users/joaogabrielmacedo/esp/esp-idf/components/mqtt /Users/joaogabrielmacedo/esp/esp-idf/components/newlib /Users/joaogabrielmacedo/esp/esp-idf/components/nvs_flash /Users/joaogabrielmacedo/esp/esp-idf/components/openthread /Users/joaogabrielmacedo/esp/esp-idf/components/partition_table /Users/joaogabrielmacedo/esp/esp-idf/components/perfmon /Users/joaogabrielmacedo/esp/esp-idf/components/protobuf-c /Users/joaogabrielmacedo/esp/esp-idf/components/protocomm /Users/joaogabrielmacedo/esp/esp-idf/components/pthread /Users/joaogabrielmacedo/esp/esp-idf/components/sdmmc /Users/joaogabrielmacedo/esp/esp-idf/components/soc /Users/joaogabrielmacedo/esp/esp-idf/components/spi_flash /Users/joaogabrielmacedo/esp/esp-idf/components/spiffs /Users/joaogabrielmacedo/esp/esp-idf/components/tcp_transport /Users/joaogabrielmacedo/esp/esp-idf/components/ulp /Users/joaogabrielmacedo/esp/esp-idf/components/unity /Users/joaogabrielmacedo/esp/esp-idf/components/usb /Users/joaogabrielmacedo/esp/esp-idf/components/vfs /Users/joaogabrielmacedo/esp/esp-idf/components/wear_levelling /Users/joaogabrielmacedo/esp/esp-idf/components/wifi_provisioning /Users/joaogabrielmacedo/esp/esp-idf/components/wpa_supplicant /Users/joaogabrielmacedo/esp/esp-idf/components/xtensa
+-- Configuring done (2.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/joaogabrielmacedo/esp/esp-idf/examples/get-started/blink/build
